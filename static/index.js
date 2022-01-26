@@ -354,7 +354,7 @@
         if (score <= 99) return '学通给你拜年了';
         if (score <= 149) return '学通给你磕头';
         if (score <= 199) return '学通为你舔脚';
-        return '学通给你肏';
+        return '学通给你';
     }
 
     w.toStr = function(obj) {
