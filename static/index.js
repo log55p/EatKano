@@ -350,11 +350,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 49) return '学通为你扣L';
+        if (score <= 99) return '学通给你拜年了';
+        if (score <= 149) return '学通给你磕头';
+        if (score <= 199) return '学通为你舔脚';
+        return '学通给你肏';
     }
 
     w.toStr = function(obj) {
